@@ -1,8 +1,8 @@
 # auto-update-cf-cdn-for-openclash
 
-Auto updating optimal cloudflare cdn nodes for [OpenClash](https://github.com/vernesong/OpenClash) on openwrt based on the result of [CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest)
+Auto updating optimal cloudflare cdn nodes for [OpenClash](https://github.com/vernesong/OpenClash) on [openwrt](https://github.com/openwrt/openwrt) based on the result of [CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest)
 
-根据[CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest)的结果，自动为openwrt上[OpenClash](https://github.com/vernesong/OpenClash)更新最优cloudflare节点。
+根据[CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest)的结果，自动为[openwrt](https://github.com/openwrt/openwrt)上[OpenClash](https://github.com/vernesong/OpenClash)更新最优cloudflare节点。
 
 使用方法
 ---
