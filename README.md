@@ -6,13 +6,12 @@ Auto updating optimal cloudflare cdn nodes for [OpenClash](https://github.com/ve
 
 使用方法
 ---
+1. 分别将脚本中IP地址修改为自己路由器对应IP
 
-在主路由上放置READ_OPTIMAL_CDN_ON_LOCAL.sh
+2. 在主路由上放置READ_OPTIMAL_CDN_ON_LOCAL.sh
 
-在OpenClash所在路由上放置UPDATE_CDN_ON_REMOTE.sh
+3. 在OpenClash所在路由上放置UPDATE_CDN_ON_REMOTE.sh
 
-在主路由crontab里添加定时任务
-
-0 2 * * * cd /root/CloudflareST_linux_mipsle && ./CloudflareST -dn 5 && sh /root/READ_OPTIMAL_CDN_ON_LOCAL.sh
+4. 在主路由crontab里添加定时任务: 0 2 * * * cd /root/CloudflareST_linux_mipsle && ./CloudflareST -dn 5 && sh /root/READ_OPTIMAL_CDN_ON_LOCAL.sh
 
 
