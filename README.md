@@ -13,6 +13,6 @@ Auto updating optimal cloudflare cdn nodes for [OpenClash](https://github.com/ve
 
 在主路由crontab里添加定时任务
 
-0 2 * * * cd /root/CloudflareST_linux_mipsle && ./CloudflareST -dn 5 && sh /root/READ_OPTIMAL_CDN_ON_LOCAL.sh
+0 2 * * * /root/CloudflareST_linux_mipsle/CloudflareST -dn 5 -f /root/CloudflareST_linux_mipsle/ip.txt && sh /root/READ_OPTIMAL_CDN_ON_LOCAL.sh
 
 
