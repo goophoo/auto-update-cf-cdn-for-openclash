@@ -6,7 +6,7 @@ Auto updating optimal cloudflare cdn nodes for [OpenClash](https://github.com/ve
 
 使用方法
 ---
-1. 需要先将脚本中相关目录和IP地址修改为自己路由器对应的值;
+1. 需要先将脚本中相关目录和IP地址替换为自己路由器对应的值;
 
 2. 在主路由上放置READ_OPTIMAL_CDN_ON_LOCAL.sh
 
