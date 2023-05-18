@@ -7,7 +7,7 @@ Auto updating optimal cloudflare cdn nodes for [OpenClash](https://github.com/ve
 ## 20230518
 1. CFT was added;
 2. IPv4 and IPv6 speed tests were separated;
-3. Output of logs was added;
+3. Output of logs were added;
 4. Invoking Cloudflare API to update DNS A/AAAA records was added instead of restarting openclash in previous version;
 ### Usage
 1. Make sure there are already configured A/AAAA records like cf1.xxxx.com, cf2.xxxx.com, cf3.xxxx.com, cf4.xxxx.com, cf5.xxxx.com, cft1.xxxx.com, cft2.xxxx.com, cft3.xxxx.com, cft4.xxxx.com, cft5.xxxx.com etc in your Cloudflare DNS; watch this video for more info, https://youtu.be/3y57YVt-PuQ?list=PLlMCmc8H8dX32NnftezyuNbgsj8vpsbUq&t=274
