@@ -23,7 +23,7 @@ Auto updating optimal cloudflare cdn nodes for [OpenClash](https://github.com/ve
 ### Examples of LOG_UPDATE_OPTIMAL_CDN_A_RECORD.log:
 
 ![LOG_OPTIMAL_CDN_CF_CFT_IPv4_TMP](https://github.com/goophoo/auto-update-cf-cdn-for-openclash/assets/112747189/63093297-57f2-44dd-a0a7-489ad4b7bba7)
-![LOG_UPDATE_OPTIMAL_CDN_A_RECORD](https://github.com/goophoo/auto-update-cf-cdn-for-openclash/assets/112747189/0b9a4135-ca4f-4b36-ae17-68a74f8a1f21)
+![LOG_UPDATE_OPTIMAL_CDN_A_RECORD](https://github.com/goophoo/auto-update-cf-cdn-for-openclash/assets/112747189/c0016cc3-1776-4695-ba7b-8b8991b3a59a)
 
 
 ## 20220903
