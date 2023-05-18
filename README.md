@@ -15,10 +15,12 @@ Auto updating optimal cloudflare cdn nodes for [OpenClash](https://github.com/ve
 3. Put all "SH_READ_OPTIMAL_CDN*.sh" files on any router that has no openclash installed on it;
 4. Put all "SH_UPDATE_OPTIMAL_CDN*.sh" files on any router that has openclash installed on it;
 5. Add crontab task on the router on which you just put "SH_READ_OPTIMAL_CDN*.sh", for instance, test for the optimal IPv4 CDN nodes of CF and CFT at 04:06 on every Tuesday, IPv6 CDN nodes at the same time on every Friday;
+``` sh
 6 4 * * 2 cd /root/SCRIPTS/CloudflareST_linux_mipsle_2.2.2 && ./CloudflareST -dn 5 && sh /root/SCRIPTS/SH_READ_OPTIMAL_CDN_CF_LOCAL_IPv4.sh && ./CloudflareST -f CDN_CFT_IPv4.txt -dn 5 -t 1 -url https://youownnode.cloudfront.net/100mb.test && sh /root/SCRIPTS/SH_READ_OPTIMAL_CDN_CFT_LOCAL_IPv4.sh
 6 4 * * 5 cd /root/SCRIPTS/CloudflareST_linux_mipsle_2.2.2 && ./CloudflareST -f ipv6.txt -dn 5 && sh /root/SCRIPTS/SH_READ_OPTIMAL_CDN_CF_LOCAL_IPv6.sh && ./CloudflareST -f CDN_CFT_IPv6.txt -dn 5 -t 1 -url https://youownnode.cloudfront.net/100mb.test && sh /root/SCRIPTS/SH_READ_OPTIMAL_CDN_CFT_LOCAL_IPv6.sh
+```
 
-Example of LOG_UPDATE_OPTIMAL_CDN_A_RECORD.log:
+### Examples of LOG_UPDATE_OPTIMAL_CDN_A_RECORD.log:
 
 ![LOG_OPTIMAL_CDN_CF_CFT_IPv4_TMP](https://github.com/goophoo/auto-update-cf-cdn-for-openclash/assets/112747189/63093297-57f2-44dd-a0a7-489ad4b7bba7)
 ![LOG_UPDATE_OPTIMAL_CDN_A_RECORD](https://github.com/goophoo/auto-update-cf-cdn-for-openclash/assets/112747189/0b9a4135-ca4f-4b36-ae17-68a74f8a1f21)
